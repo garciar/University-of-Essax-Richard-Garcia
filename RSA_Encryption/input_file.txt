@@ -1,0 +1,8 @@
+The bitcoin blockchain is essentially a data structure with an ordered back-linked 
+list of blocks containing bitcoin transactions. At the moment, the average number of
+transactions per block is around 2000. Check it out here.
+Each block within the blockchain is identified by a SHA256 cryptographic
+hash algorithm on the block header. The block references its parent using its block 
+hash (SHA256 on the parent’s block header also). This results in a sequence of hashes linking 
+each block to its parent that creates a chain all the way back to the first block ever created! 
+The genesis block.
